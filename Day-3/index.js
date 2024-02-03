@@ -60,5 +60,53 @@ http
         });
       });
     }
+    // delete product in products.json
+    else if (pathURL.pathname == '/products' && req.method == 'DELETE') {
+      let cnvrtArray = JSON.parse(products);
+      let index = cnvrtArray.findIndex((product) => {
+        return product.id == pathURL.query.id;
+      });
+      if (index !== -1) {
+        cnvrtArray.splice(index, 1);
+        fs.writeFile('./products.json', JSON.stringify(cnvrtArray), (err) => {
+          if (err == null) {
+            res.end(JSON.stringify({ message: 'Deleted Successfully!' }));
+          } else {
+            res.end(JSON.stringify({ message: 'Something went wrong' }));
+          }
+        });
+      } else {
+        res.end(JSON.stringify({ message: 'not found a product' }));
+      }
+    }
+
+    //  update a specific product
+    else if (pathURL.pathname == '/products' && req.method == 'PUT') {
+      let upProduct = '';
+
+      req.on('data', (chunk) => {
+        upProduct += chunk;
+      });
+      req.on('end', () => {
+        let newUpArray = JSON.parse(products);
+        let objUpdProd = JSON.parse(upProduct);
+
+        let index = newUpArray.findIndex((product) => {
+          return product.id == pathURL.query.id;
+        });
+        if (index !== -1) {
+          newUpArray[index] = objUpdProd;
+          fs.writeFile('./products.json', JSON.stringify(newUpArray), (err) => {
+            if (err == null) {
+              res.end(JSON.stringify({ message: 'Updated Successfully' }));
+            } else {
+              res.end(JSON.stringify({ message: 'Something went wrong' }));
+            }
+          });
+        } else {
+          res.end(JSON.stringify({ message: 'not found a product' }));
+        }
+      });
+    }
   })
   .listen(8080);
