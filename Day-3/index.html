@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let product = {
+        id: 137,
+        title: 'Xpressio Perfume',
+        description:
+          'Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men',
+        price: 13,
+        discountPercentage: 8.14,
+        rating: 4.59,
+        stock: 61,
+        brand: 'Fog Scent Xpressio',
+        category: 'fragrances',
+        thumbnail: 'https://i.dummyjson.com/data/products/13/thumbnail.webp',
+        images: [
+          'https://i.dummyjson.com/data/products/13/1.jpg',
+          'https://i.dummyjson.com/data/products/13/2.png',
+          'https://i.dummyjson.com/data/products/13/3.jpg',
+          'https://i.dummyjson.com/data/products/13/4.jpg',
+          'https://i.dummyjson.com/data/products/13/thumbnail.webp',
+        ],
+      };
+
+      //   fetch('http://localhost:8080/products?id=130')
+      fetch('http://localhost:8080/products', {
+        method: 'POST',
+        body: JSON.stringify(product),
+        headers: {
+          'Content-Type': 'application / json',
+        },
+      })
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    </script>
+  </body>
+</html>

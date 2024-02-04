@@ -6,14 +6,22 @@ const url = require('url');
 // create API
 http
   .createServer((req, res) => {
+    console.log(req.method);
     // console.log(url.parse(req.url, true));
     const pathURL = url.parse(req.url, true);
     console.log(pathURL);
 
     let products = fs.readFileSync('./products.json', 'utf-8');
+    // set header for access any API from frontend to server
 
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Headers', '*');
+
+    if (req.method == 'OPTIONS') {
+      res.end();
+    }
     // get all products
-    if (
+    else if (
       pathURL.pathname == '/products' &&
       req.method == 'GET' &&
       pathURL.query.id == undefined

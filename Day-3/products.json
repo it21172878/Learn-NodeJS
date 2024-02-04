@@ -38,9 +38,9 @@
   },
   {
     "id": 4,
-    "title": "OPPOF19",
+    "title": "OPPO-F19",
     "description": "OPPO F19 is officially announced on April 2021.",
-    "price": 280,
+    "price": 22280,
     "discountPercentage": 17.91,
     "rating": 4.3,
     "stock": 123,
@@ -609,21 +609,192 @@
     ]
   },
   {
-    "id": 98,
-    "title": "This is new updated product",
+    "id": 99,
+    "title": "New Updated Cup",
     "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
-    "price": 30,
+    "price": 300,
     "discountPercentage": 2.92,
-    "rating": 5,
+    "rating": 4.92,
     "stock": 54,
     "brand": "Golden",
-    "category": "kitchen-decoration",
+    "category": "home-decoration",
     "thumbnail": "https://i.dummyjson.com/data/products/30/thumbnail.jpg",
     "images": [
       "https://i.dummyjson.com/data/products/30/1.jpg",
       "https://i.dummyjson.com/data/products/30/2.jpg",
       "https://i.dummyjson.com/data/products/30/3.jpg",
       "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "OPPO Updated Max Seven Mobile",
+    "description": "OPPO F19 is officially announced on April 2021.",
+    "price": 22180,
+    "discountPercentage": 17.91,
+    "rating": 4.3,
+    "stock": 123,
+    "brand": "OPPO",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/4/1.jpg",
+      "https://i.dummyjson.com/data/products/4/2.jpg",
+      "https://i.dummyjson.com/data/products/4/3.jpg",
+      "https://i.dummyjson.com/data/products/4/4.jpg",
+      "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Fog Scent Xpressio Perfume",
+    "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+    "price": 13,
+    "discountPercentage": 8.14,
+    "rating": 4.59,
+    "stock": 61,
+    "brand": "Fog Scent Xpressio",
+    "category": "fragrances",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/13/1.jpg",
+      "https://i.dummyjson.com/data/products/13/2.png",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/4.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Fog Scent Xpressio Perfume",
+    "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+    "price": 13,
+    "discountPercentage": 8.14,
+    "rating": 4.59,
+    "stock": 61,
+    "brand": "Fog Scent Xpressio",
+    "category": "fragrances",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/13/1.jpg",
+      "https://i.dummyjson.com/data/products/13/2.png",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/4.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Fog Scent Xpressio Perfume",
+    "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+    "price": 13,
+    "discountPercentage": 8.14,
+    "rating": 4.59,
+    "stock": 61,
+    "brand": "Fog Scent Xpressio",
+    "category": "fragrances",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/13/1.jpg",
+      "https://i.dummyjson.com/data/products/13/2.png",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/4.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+    ]
+  },
+  {
+    "id": 140,
+    "title": "OPPO Seven Mobile",
+    "description": "OPPO F19 is officially announced on April 2021.",
+    "price": 22111180,
+    "discountPercentage": 17.91,
+    "rating": 4.3,
+    "stock": 123,
+    "brand": "OPPO",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/4/1.jpg",
+      "https://i.dummyjson.com/data/products/4/2.jpg",
+      "https://i.dummyjson.com/data/products/4/3.jpg",
+      "https://i.dummyjson.com/data/products/4/4.jpg",
+      "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Xpressio Perfume",
+    "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+    "price": 13,
+    "discountPercentage": 8.14,
+    "rating": 4.59,
+    "stock": 61,
+    "brand": "Fog Scent Xpressio",
+    "category": "fragrances",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/13/1.jpg",
+      "https://i.dummyjson.com/data/products/13/2.png",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/4.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Xpressio Perfume",
+    "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+    "price": 13,
+    "discountPercentage": 8.14,
+    "rating": 4.59,
+    "stock": 61,
+    "brand": "Fog Scent Xpressio",
+    "category": "fragrances",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/13/1.jpg",
+      "https://i.dummyjson.com/data/products/13/2.png",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/4.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Xpressio Perfume",
+    "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+    "price": 13,
+    "discountPercentage": 8.14,
+    "rating": 4.59,
+    "stock": 61,
+    "brand": "Fog Scent Xpressio",
+    "category": "fragrances",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/13/1.jpg",
+      "https://i.dummyjson.com/data/products/13/2.png",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/4.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Xpressio Perfume",
+    "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+    "price": 13,
+    "discountPercentage": 8.14,
+    "rating": 4.59,
+    "stock": 61,
+    "brand": "Fog Scent Xpressio",
+    "category": "fragrances",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/13/1.jpg",
+      "https://i.dummyjson.com/data/products/13/2.png",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/4.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.webp"
     ]
   }
 ]
