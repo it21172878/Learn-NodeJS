@@ -16,7 +16,12 @@ http
 
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Headers', '*');
+    res.setHeader(
+      'Access-Control-Allow-Methods',
+      'GET,PUT,POST,DELETE,PATCH,OPTIONS'
+    );
 
+    // handling options preflight request which comes before post,put,delete automatically
     if (req.method == 'OPTIONS') {
       res.end();
     }
