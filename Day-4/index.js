@@ -34,7 +34,7 @@ const userSchema = new mongoose.Schema(
       max: [120, "You can't be older than 120"],
     },
   },
-  { timestamps: true }
+  { timestamps: true } //create additional column with created date and last updated time
 );
 
 // creare a model for scheama
