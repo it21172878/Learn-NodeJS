@@ -30,6 +30,26 @@ mongoose
     console.log(err);
   });
 
+// create user schema
+const userSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: [true, 'Please provide your name'],
+    },
+    email: {
+      type: String,
+      required: [true, 'Please provide your email'],
+    },
+    password: {
+      type: String,
+      required: [true, 'Please provide password'],
+    },
+  },
+  { timestamps: true }
+);
+const userModel = mongoose.model('users', userSchema);
+
 // create product schema
 const productsSchema = new mongoose.Schema(
   {
@@ -58,6 +78,7 @@ const productsSchema = new mongoose.Schema(
 // create model
 const productsModel = mongoose.model('products', productsSchema);
 
+// create a new server
 app.listen(8080, () => {
   console.log('Server is running at http://localhost:8080');
 });

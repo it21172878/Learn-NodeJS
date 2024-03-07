@@ -6,9 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dilanka",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^8.1.1"
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.1.0"
   }
 }
