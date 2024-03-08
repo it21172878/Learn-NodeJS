@@ -88,3 +88,21 @@ app.post('/login', (req, res) => {
     }
   });
 });
+
+app.get('/getdata', verifyToken, (req, res) => {
+  res.send({ message: 'I am bad developer with a good heart' });
+});
+
+function verifyToken(req, res, next) {
+  const token = req.headers.authorization.split(' ')[1];
+  jwt.verify(token, 'dilankaauth', (err, authData) => {
+    if (!err) {
+      console.log(authData);
+      next();
+    } else {
+      res
+        .status(401)
+        .send({ message: 'Login session expired. Please login again' });
+    }
+  });
+}
